@@ -1,0 +1,56 @@
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+*.dSYM/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Dependency folder (if it contains build artifacts)
+dependency/
+
+# IDE or editor-specific files
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
